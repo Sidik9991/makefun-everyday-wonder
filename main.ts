@@ -53,6 +53,23 @@ const CANDIDATES: Candidate[] = [
     text: "The fridge light comes on at 2 a.m. and for a moment the kitchen is a small, cold stage where the leftovers perform for no one.",
     scores: [2, 1, 1, 2, 1],
   },
+  // --- Pass 2 challengers ---
+  {
+    // A wave answered where no one can see it. The answering wave is
+    // imagined rather than real, so criterion 4 scores it down.
+    text: "A toddler waves at the security camera, and somewhere a tired guard waves back at a screen.",
+    scores: [2, 2, 2, 1, 2],
+  },
+  {
+    // Wet crosswalk stripes as piano keys underfoot.
+    text: "After the rain, the crosswalk stripes shine so white that crossing the street feels like walking across piano keys.",
+    scores: [2, 1, 2, 2, 1],
+  },
+  {
+    // The washing machine's end-of-cycle song, applauded by the house.
+    text: "The washing machine finishes and plays its little song, and the whole house, without deciding to, feels slightly proud.",
+    scores: [2, 1, 2, 2, 1],
+  },
 ];
 
 function total(c: Candidate): number {
